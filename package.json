@@ -1,26 +1,22 @@
 {
-  "name": "secrets",
+  "name": "secrets-1",
   "version": "1.0.0",
-  "description": "Authentication and Security",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NatusyaZira/secrets.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NatusyaZira/secrets/issues"
-  },
-  "homepage": "https://github.com/NatusyaZira/secrets#readme",
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "mongoose": "^6.9.1"
+    "md5": "^2.3.0",
+    "mongoose": "^6.9.1",
+    "mongoose-encryption": "^2.1.2"
   }
 }
